@@ -7,7 +7,6 @@ app.get("/api/users", (req, res)=>{
     return res.json(users);
 });
 // sgit 
-// zdas
 try {
     app.get("/api/users/:id", (req, res)=>{
         const id = req.params.id;
