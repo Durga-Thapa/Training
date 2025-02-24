@@ -6,6 +6,7 @@ const PORT= 8000;
 app.get("/api/users", (req, res)=>{
     return res.json(users);
 });
+// sgit 
 
 try {
     app.get("/api/users/:id", (req, res)=>{
